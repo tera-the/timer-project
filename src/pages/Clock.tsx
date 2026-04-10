@@ -152,7 +152,7 @@ const Clock = () => {
     const handleDelete = (index: number) => {
         const zoneArray = [...zones];
 
-        const updated = zoneArray.filter((item, i) => i !== index);
+        const updated = zoneArray.filter((_, i) => i !== index);
 
         setZones(updated);
         setOpenedIndex(null);

@@ -1,9 +1,8 @@
-import React from 'react'
+import { Button } from './button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './card'
+import { Checkbox } from './checkbox'
 import { Input } from './input'
 import { Label } from './label'
-import { Button } from './button'
-import { Checkbox } from './checkbox'
 
 const login = () => {
     return (

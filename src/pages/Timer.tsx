@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Arrows from '../components/ui/arrows';
 import { Button } from '../components/ui/button';
-import { Card, CardTitle } from '../components/ui/card';
+import { CardTitle } from '../components/ui/card';
 import H1 from '../components/ui/H1';
 
 const Timer = () => {
